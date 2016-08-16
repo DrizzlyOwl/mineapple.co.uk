@@ -3799,3 +3799,42 @@
 			}
 
 		}
+
+#slackSupport {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 3px solid lightslategrey;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+}
+
+#slackSupport:after {
+    content: "?";
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 47px;
+    width: 47px;
+    line-height: 47px;
+    margin: 0 auto;
+    color: lightslategrey;
+    font-size: 2rem;
+}
+
+.slackchat .close {
+	display: none;
+}
+
+.slackchat .slack-chat-header {
+	color: black;
+}
+
+.slackchat .slack-new-message {
+	color: black;
+    border: 1px solid slategray !important;
+}
