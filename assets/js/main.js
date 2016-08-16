@@ -138,7 +138,7 @@
     
         var slackTrigger = $('#slackSupport');
         var slackChatOptions = {
-            apiToken: 'xoxb-69830548145-9FWiOjJsO4BvJkg191CIC6fa',       //#Slack Auth token. Required.
+            apiToken: 'xoxb-69830548145-LJyEU5J9NoQcCy5WyRvig6yZ',       //#Slack Auth token. Required.
             channelId: 'C1TBXPFME',      //#Slack channel ID. Required.
             user: 'Web user',           //name of the user. Required.
             defaultSysUser: 'Mineapple',                //Required.
