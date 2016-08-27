@@ -4,8 +4,8 @@
 
 set :stage, :production
 set :stage_url, "https://www.mineapple.co.uk"
-server "drizzlyowl.co.uk", user: "ash", roles: %w{web app db}
-set :deploy_to, "/var/www/html/"
+server "188.166.170.87", user: "ash", roles: %w{web app db}
+set :deploy_to, "/var/www/html/mineapple.co.uk"
 
 ############################################
 # Setup Git
@@ -26,4 +26,4 @@ set :branch, "master"
 #}
 
 #specify a specific temp dir if user is jailed to home
-#set :tmp_dir, "/path/to/custom/tmp"
+#set :tmp_dir, "~/wp-deploy"
