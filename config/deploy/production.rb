@@ -5,7 +5,7 @@
 set :stage, :production
 set :stage_url, "https://mineapple.co.uk"
 server "188.166.170.87", user: "ash", roles: %w{web app db}
-set :deploy_to, "/var/www/html/mineapple.co.uk"
+set :deploy_to, "/var/www/html/mineapple.co.uk/current"
 
 ############################################
 # Setup Git
